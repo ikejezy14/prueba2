@@ -1,0 +1,118 @@
+/* Estilo del banner */
+.background-banner{
+    position: relative;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    min-height: 100px;
+}
+/* Estilo para la transparecia del banner y adjuntarle elementos delante de el */
+.background-overlay{
+    position: absolute;
+    background:rgba(85, 82, 82, 0.5);
+    width:100%;
+    height: 100%;
+}
+/* Estilo del buscador "input" */
+.border-input{
+    border-radius:20px;
+    border:none;
+}
+/* Contenedor de la imagen del usuario */
+.img-size{
+    margin-top:-50px;
+}
+/* Estilos(Ancho/Alto) de la imagen del usuario */
+.border-size{
+    height: 80px;
+    width:80px;
+}
+/* Tamaño del input */
+.form-control{
+    width: 80%;
+    margin-left: 20%;
+}
+/* Estilos del scroll */
+div.scrollmenu {
+    background-color:#F2F2F4;
+    overflow: auto;
+    white-space: nowrap;
+    
+  } 
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    border-right: 2px solid #00195C;
+
+  }
+  div.scrollmenu a:last-child {
+    border-right: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  /* Fin Estilos del scroll */
+
+  
+
+  /* Estilos del contenedor del scroll */
+  .container-width{
+      max-width: 100%;
+  }
+  /* Estilo del input "buscador" */
+  .input-button{
+    border-radius: 0;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border-right: 1px solid #fff;
+  }
+  /* Estilos del boton "buscar" */
+  .btn-search{
+    border-radius: 0;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+  /* Contenedor personalizado para margenes a los lados */
+  .containerbro{
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  /* CSS JARNIEL ---------------------------------------------------------------------------------- */
+
+.carousel-content{
+    width: 200px;
+}
+/*  -sm- Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .d-block{
+        height: 100px;
+        width: 200px;
+        border-radius: 25%;
+    }
+}
+
+/*  -md- Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .d-block{
+        height: 150px;
+        width: 200px;
+        border-radius: 25%;
+    }  
+}
+
+/*  -lg- Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .d-block{
+        height: 200px;
+        width: 200px;
+        border-radius: 25%;
+    }
+}
+
+/*   -xl- Extra large devices (large desktops, 1200px and up)*/
