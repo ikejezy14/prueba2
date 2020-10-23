@@ -78,41 +78,66 @@ div.scrollmenu {
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
   }
+/* Input de las (+ / +) cards */
+  .form-controlo{
+      border:none;
+      outline: none;
+      width: 50%;
+      background-color: white;
+      font-weight: bold;
+      
+  }
+/* Estilos de los botones de sumar y restar */
+  .btn-more-less{
+    width: 30px; 
+    height: 30px; 
+    display:flex; 
+    align-items: center; 
+    justify-content: center;
+    
+  }
+  
   /* Contenedor personalizado para margenes a los lados */
   .containerbro{
       margin-left: 10%;
       margin-right: 10%;
   }
+
+  .btn-block2{
+    font-weight: bold;
+  }
   /* CSS JARNIEL ---------------------------------------------------------------------------------- */
-
-.carousel-content{
-    width: 200px;
-}
-/*  -sm- Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    .d-block{
-        height: 100px;
-        width: 200px;
-        border-radius: 25%;
+  @media (max-width: 576px) { 
+    .btn-block2{
+    
+      margin:auto auto;
+      width: 100%;
+      font-weight: bold;
     }
-}
+   }
 
-/*  -md- Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-    .d-block{
-        height: 150px;
-        width: 200px;
-        border-radius: 25%;
-    }  
-}
-
-/*  -lg- Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-    .d-block{
-        height: 200px;
-        width: 200px;
-        border-radius: 25%;
+   @media (min-width: 768px) { 
+    .btn-block2{
+    
+      margin:auto auto;
+      width: 90%;
+      font-weight: bold;
     }
-}
+    }
+  @media (min-width: 1200px) { 
+    .form-controlo{
+      border:none;
+      outline: none;
+      background-color: white;
+      font-weight: bold;
+      
+  }
+  .btn-block2{
+    
+    margin:auto auto;
+    width: 90%;
+    font-weight: bold;
+  }
 
-/*   -xl- Extra large devices (large desktops, 1200px and up)*/
+  }
+
